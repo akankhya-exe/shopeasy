@@ -19,7 +19,6 @@ export default function Newsletter() {
             className="w-full md:w-auto px-4 py-3 text-[14px] text-gray-900 bg-white focus:outline-none focus:ring-2 focus:ring-[#e2b714]" 
           />
           
-          {/* Custom Tailwind Select */}
           <select className="w-full md:w-auto px-4 py-3 text-[14px] text-gray-500 bg-white focus:outline-none focus:ring-2 focus:ring-[#e2b714] cursor-pointer">
             <option value="">Interested in...</option>
             <option value="electronics">Electronics</option>

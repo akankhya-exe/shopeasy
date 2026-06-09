@@ -15,7 +15,6 @@ export default function Deals() {
           <span className="text-[#e63946] font-medium text-lg">Ends in: <strong className="font-bold">04:32:18</strong></span>
         </div>
         
-        {/* Mobile Swipeable Wrapper */}
         <div className="overflow-x-auto">
           <table className="w-full min-w-[600px] text-left border-collapse">
             <thead>
@@ -38,7 +37,6 @@ export default function Deals() {
                     <span className="bg-[#e63946] text-white py-1 px-2 text-xs font-bold">{deal.discount}</span>
                   </td>
                   <td className="p-3 text-sm text-gray-300 flex items-center gap-2">
-                    {/* Native HTML5 Progress Bar */}
                     <progress value={deal.stock} max="100" className="w-16 h-2"></progress> {deal.stock} left
                   </td>
                   <td className="p-3">

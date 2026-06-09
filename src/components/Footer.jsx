@@ -1,7 +1,6 @@
 export default function Footer() {
   return (
     <footer className="bg-[#111] text-[#aaa] text-[13px] w-full">
-      {/* Top Grid Section */}
       <div className="max-w-6xl mx-auto px-6 py-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         
         <div>

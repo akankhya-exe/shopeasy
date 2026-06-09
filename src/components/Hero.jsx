@@ -36,7 +36,6 @@ export default function Hero() {
   return (
     <div ref={containerRef} className="w-full max-w-6xl mx-auto px-4 my-6 overflow-hidden">
       
-      {/* BYPASSED TAILWIND COMPILER: Using inline style attribute for the gradient background */}
       <div 
         className="hero-banner opacity-0 translate-y-[60px] text-white py-16 px-6 text-center rounded-lg shadow-xl"
         style={{ background: 'linear-gradient(135deg, #1a1a2e 0%, #0f3460 100%)' }}
@@ -61,7 +60,6 @@ export default function Hero() {
           </div>
         </div>
         
-        {/* Stats Grid */}
         <div className="border-t border-white/15 pt-8 grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl mx-auto">
           {stats.map((stat, i) => (
             <div 
